@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="counter__wrapper">
-      <h1 className="counter__heading">React Counter Using redux</h1>
+      <h1 className="counter__heading">React Counter Using Redux</h1>
       <h3 className="counter">{counter}</h3>
       <button className="increase" onClick={() => dispatch(increment())}>Increase +</button>
       <button className="decrease" onClick={() => dispatch(decrement())}>Decrease -</button>
